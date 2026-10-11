@@ -1,0 +1,18 @@
+const base = { width: 22, height: 22, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.9, strokeLinecap: 'round', strokeLinejoin: 'round', 'aria-hidden': true };
+export const IconToday = (p) => <svg {...base} {...p}><circle cx="12" cy="12" r="8" /><circle cx="12" cy="4" r="1.6" fill="currentColor" stroke="none" /></svg>;
+export const IconCalendar = (p) => <svg {...base} {...p}><rect x="4" y="5" width="16" height="15" rx="3" /><path d="M8 3v4M16 3v4M4 10h16" /></svg>;
+export const IconChart = (p) => <svg {...base} {...p}><path d="M6 20V11M12 20V5M18 20v-6" /></svg>;
+export const IconUser = (p) => <svg {...base} {...p}><circle cx="12" cy="8" r="3.6" /><path d="M5 20c.8-3.6 3.6-5.4 7-5.4s6.2 1.8 7 5.4" /></svg>;
+export const IconLock = (p) => <svg {...base} {...p}><rect x="5" y="11" width="14" height="9" rx="2.5" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg>;
+export const IconDrop = (p) => <svg {...base} {...p}><path d="M12 3.5c3.4 4 5.5 6.8 5.5 9.6a5.5 5.5 0 0 1-11 0C6.5 10.300 8.600 7.500 12 3.500z" /></svg>;
+export const IconChevronL = (p) => <svg {...base} {...p}><path d="M15 5l-7 7 7 7" /></svg>;
+export const IconChevronR = (p) => <svg {...base} {...p}><path d="M9 5l7 7-7 7" /></svg>;
+export const IconBolt = (p) => <svg {...base} {...p}><path d="M13 3L5 14h6l-1 7 8-11h-6z" /></svg>;
+export const IconHeart = (p) => <svg {...base} {...p}><path d="M12 20s-7-4.400-7-10a4 4 0 0 1 7-2.600A4 4 0 0 1 19 10c0 5.600-7 10-7 10z" /></svg>;
+export const IconLeaf = (p) => <svg {...base} {...p}><path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14" /><path d="M5 19c3-4 6-6 9-7" /></svg>;
+export const IconDownload = (p) => <svg {...base} {...p}><path d="M12 4v11M7 11l5 5 5-5M5 20h14" /></svg>;
+export const IconUpload = (p) => <svg {...base} {...p}><path d="M12 16V5M7 9l5-5 5 5M5 20h14" /></svg>;
+export const IconTrash = (p) => <svg {...base} {...p}><path d="M5 7h14M10 7V5h4v2M7 7l1 12h8l1-12" /></svg>;
+export const IconSparkle = (p) => <svg {...base} {...p}><path d="M12 3l1.800 5.200L19 10l-5.200 1.800L12 17l-1.800-5.200L5 10l5.200-1.800z" /></svg>;
+export const IconMinus = (p) => <svg {...base} {...p}><path d="M6 12h12" /></svg>;
+export const IconPlus = (p) => <svg {...base} {...p}><path d="M12 6v12M6 12h12" /></svg>;
